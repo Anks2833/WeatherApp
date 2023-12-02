@@ -20,39 +20,39 @@ async function checkWeather(city){
 
 
     if(data.weather[0].main === "Clouds"){
-        document.body.style.background = 'url(./images/weather.gif)';
+        document.body.style.background = 'url(./Images/weather.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
 
     else if(data.weather[0].main === "Clear"){
-        document.body.style.background = 'url(./images/clear.gif)';
+        document.body.style.background = 'url(./Images/clear.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
     else if(data.weather[0].main === "Rain"){
-        document.body.style.background = 'url(./images/rain.gif)';
+        document.body.style.background = 'url(./Images/rain.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
     else if(data.weather[0].main === "Drizzle"){
-        document.body.style.background = 'url(./images/rain.gif)';
+        document.body.style.background = 'url(./Images/rain.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
     else if(data.weather[0].main === "Mist"){
-        document.body.style.background = 'url(./images/mist.gif)';
+        document.body.style.background = 'url(./Images/mist.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
     else if(data.weather[0].main === "Smoke"){
-        document.body.style.background = 'url(./images/mist.gif)';
+        document.body.style.background = 'url(./Images/mist.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
 
     else{
-        document.body.style.background = 'url(./images/world.gif)';
+        document.body.style.background = 'url(./Images/world.gif)';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
     }
