@@ -605,3 +605,113 @@ iframe{
 }
 
 
+@media only screen and (min-width: 250px) and (max-width: 400px){
+    html,body{
+        width: 100vw;
+        height: 100vh;
+        background: url(./Images/world.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .preloader{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: #000;
+        z-index: 100;
+        background: url(./Images/preloader.gif);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .timenow{
+        display: flex;
+        align-items: center;
+        /* border: 1px solid #fff; */
+        display: flex;
+        /* flex-direction: column; */
+        /* gap: 50px; */
+        text-shadow: 3px 4px 7px rgba(81,67,21,0.8); 
+        margin-left: 100px;  
+    }
+
+    .main{
+        /* border: 1px solid #fff; */
+        border-radius: 20px;
+        background-color: rgba(128, 128, 128, 0.5);
+        width:90vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .inp{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 20px; */
+    }
+
+    input{
+        border: none;
+        border-radius: 20px;
+        width: 50vw;
+        height: 5vh;
+        padding-left: 20px;
+        color: #000;
+        outline: none;
+    }
+
+    .subBtn{
+        border: none;
+        background-color: royalblue;
+        /* color: #000; */
+        width: 25vw;
+        height: 5vh;
+        border-radius: 10px;
+        margin-left: 8px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .enterloc{
+        width: 220px;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .day{
+        display: none;
+    }
+
+    .cityName{
+        margin-top: -40px;
+    }
+
+    .humid{
+        margin-top: -50px;
+        margin-left: 30px;
+    } 
+
+    .wind{
+        margin-left: 30px;
+    }
+}
+
+
